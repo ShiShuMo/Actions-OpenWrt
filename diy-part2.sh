@@ -12,7 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/Lean/莫诗书/g' package/lean/v2ray/Makefile;sed -i 's/R20.8.27/Powered By 莫诗书 (admin@52mss.cn)/g' package/lean/default-settings/files/zzz-default-settings;sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate;
+sed -i 's/Lean/莫诗书/g' package/lean/v2ray/Makefile;sed -i 's/R20.12.12/Powered By 莫诗书 (admin@52mss.cn)/g' package/lean/default-settings/files/zzz-default-settings;sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate;
 #取消bootstrap为默认主题
 #sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 #删除默认密码
